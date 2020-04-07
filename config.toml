@@ -1,7 +1,7 @@
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://github.com/arorarshi/arorarshi.github.io/"
+baseurl = "/"
 title = "Arshi Arora"
 copyright = "&copy; 2020 Arshi Arora"
 

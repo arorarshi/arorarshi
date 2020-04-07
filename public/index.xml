@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arshi Arora</title>
-    <link>/arorarshi/arorarshi.github.io/</link>
-      <atom:link href="/arorarshi/arorarshi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Arshi Arora</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020 Arshi Arora</copyright><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Arshi Arora</title>
-      <link>/arorarshi/arorarshi.github.io/</link>
+      <link>/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>/arorarshi/arorarshi.github.io/talk/example/</link>
+      <link>/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/arorarshi/arorarshi.github.io/talk/example/</guid>
+      <guid>/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -36,9 +36,9 @@
     
     <item>
       <title>Slides</title>
-      <link>/arorarshi/arorarshi.github.io/slides/example/</link>
+      <link>/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/arorarshi/arorarshi.github.io/slides/example/</guid>
+      <guid>/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
@@ -169,27 +169,27 @@ Three
     
     <item>
       <title>Privacy Policy</title>
-      <link>/arorarshi/arorarshi.github.io/privacy/</link>
+      <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/arorarshi/arorarshi.github.io/privacy/</guid>
+      <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Terms</title>
-      <link>/arorarshi/arorarshi.github.io/terms/</link>
+      <link>/terms/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/arorarshi/arorarshi.github.io/terms/</guid>
+      <guid>/terms/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>An example journal article</title>
-      <link>/arorarshi/arorarshi.github.io/publication/journal-article/</link>
+      <link>/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/arorarshi/arorarshi.github.io/publication/journal-article/</guid>
+      <guid>/publication/journal-article/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -207,9 +207,9 @@ Three
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/arorarshi/arorarshi.github.io/post/2015-07-23-r-rmarkdown/</link>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/arorarshi/arorarshi.github.io/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>
 
 
@@ -246,7 +246,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/arorarshi/arorarshi.github.io/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;
@@ -257,9 +257,9 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>An example conference paper</title>
-      <link>/arorarshi/arorarshi.github.io/publication/conference-paper/</link>
+      <link>/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/arorarshi/arorarshi.github.io/publication/conference-paper/</guid>
+      <guid>/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -277,18 +277,18 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>panelmap</title>
-      <link>/arorarshi/arorarshi.github.io/project/panelmap/</link>
+      <link>/project/panelmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/arorarshi/arorarshi.github.io/project/panelmap/</guid>
+      <guid>/project/panelmap/</guid>
       <description>&lt;p&gt;Visualizing discrete and continuous data for known groups&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>survClust</title>
-      <link>/arorarshi/arorarshi.github.io/project/survclust/</link>
+      <link>/project/survclust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/arorarshi/arorarshi.github.io/project/survclust/</guid>
+      <guid>/project/survclust/</guid>
       <description>&lt;p&gt;An outcome weighted supervised clustering algorithm, designed to classify patients according to their molecular as well as time-event or end point of interest data.&lt;/p&gt;
 </description>
     </item>
