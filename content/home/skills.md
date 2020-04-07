@@ -18,24 +18,31 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "90%"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "90%"  
-
-[[feature]]
-  icon = "quidditch"
-  icon_pack = "far"
-  name = "Potter (wizarding and muggle)"
-  description = "50%"
 
 [[feature]]
   icon = "laptop-code"
   icon_pack = "fas"
-  name = "Perl, shell etc"
-  description = "30%"  
+  name = "Perl,shell"
 
+[[feature]]
+  icon = "quidditch"
+  icon_pack = "fas"
+  name = "Potter (wizarding and muggle)"
+
+[[feature]]
+  icon = "compress"
+  icon_pack = "fas"
+  name = "Minimalist"
+
+
+[[feature]]
+  icon = "music"
+  icon_pack = "fas"
+  name = "Dancer"
+ 
 +++
