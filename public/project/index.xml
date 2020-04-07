@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Arshi Arora</title>
+    <link>/arorarshi/arorarshi.github.io/project/</link>
+      <atom:link href="/arorarshi/arorarshi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020 Arshi Arora</copyright>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Projects</title>
+      <link>/arorarshi/arorarshi.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>panelmap</title>
+      <link>/arorarshi/arorarshi.github.io/project/panelmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/arorarshi/arorarshi.github.io/project/panelmap/</guid>
+      <description>&lt;p&gt;Visualizing discrete and continuous data for known groups&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>survClust</title>
+      <link>/arorarshi/arorarshi.github.io/project/survclust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/arorarshi/arorarshi.github.io/project/survclust/</guid>
+      <description>&lt;p&gt;An outcome weighted supervised clustering algorithm, designed to classify patients according to their molecular as well as time-event or end point of interest data.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
