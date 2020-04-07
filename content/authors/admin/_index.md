@@ -70,5 +70,5 @@ email: ""
 
 ---
 
- I am a Statistician with modest programming skills in R, Perl and shell, with formal training in Computational Biology. I work at Memorial Sloan Kettering Cancer Center as a Biostatistician and dabble in Cancer Genomics. A typical day involves coming up with simple yet compelling data analysis to answer critical biological questions. 
+ I am a Statistician with strong programming skills in R, Perl and shell, and a formal training in Computational Biology. I work at Memorial Sloan Kettering Cancer Center as a Biostatistician and dabble in Cancer Genomics. A typical day involves coming up with simple yet compelling data analysis to answer critical biological questions. 
 
