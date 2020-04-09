@@ -1,7 +1,7 @@
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://arorarshi.rbind.io/"
 title = "Arshi Arora"
 copyright = "&copy; 2020 Arshi Arora"
 
@@ -64,6 +64,15 @@ removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issu
   resampleFilter = "lanczos"
   quality = 90
   anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
+
+# Configure BlackFriday Markdown rendering.
+#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
+[blackfriday]
+  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
+	angledQuotes = false
+	latexDashes = true
+  extensions = ["backslashLineBreak"]
+#this is only needed for .md. Pandoc is better for .Rmd. Maybe remove later
 
 # Taxonomies.
 [taxonomies]

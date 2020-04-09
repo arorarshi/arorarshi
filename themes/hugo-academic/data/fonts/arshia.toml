@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Rose"
+
+# Optional Google font URL
+google_fonts = "Averia+Serif+Libre|Inconsolata|Fredericka+the+Great"
+
+# Font families
+heading_font = "Fredericka the Great"
+body_font = "Inconsolata"
+nav_font = "Inconsolata"
+mono_font = "Averia+Serif+Libre"
+
+# Font size
+font_size = "24"
+font_size_small = "20"

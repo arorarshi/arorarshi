@@ -1,0 +1,22 @@
+# Theme metadata
+name = "arshia"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+#primary = "#EF525B"
+primary = "#A95E62"
+
+# Menu
+menu_primary = "#507B97"
+menu_text = "#EEE8AA"
+menu_text_active = "#F2DDDA"
+menu_title = "#EEE8AA"
+
+# Backgrounds
+background = "#F6F4E8"
+home_section_odd = "#F6F4E8"
+home_section_even = "#F6F4E8"
+
+font = "arshia"
