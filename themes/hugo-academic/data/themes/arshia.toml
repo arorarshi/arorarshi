@@ -6,9 +6,11 @@ light = true
 
 # Primary
 #primary = "#EF525B"
+#color of icons and MSKCC
 primary = "#A95E62"
 
 # Menu
+#nav bar
 menu_primary = "#507B97"
 menu_text = "#EEE8AA"
 menu_text_active = "#F2DDDA"

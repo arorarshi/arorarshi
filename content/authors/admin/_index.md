@@ -18,7 +18,7 @@ organizations:
   url: "https://www.mskcc.org/departments/epidemiology-biostatistics"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: New Yorker from Jaipur, India. Cancer Genomics, pottery and biking. 
 
 interests: 
 
