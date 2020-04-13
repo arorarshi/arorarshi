@@ -52,6 +52,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/arorarshi
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/arshi-arora-4668446
   
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -72,3 +75,4 @@ email: ""
 
  I am a Statistician with strong programming skills in R, Perl and shell, and a formal training in Computational Biology. I work at Memorial Sloan Kettering Cancer Center as a Biostatistician and dabble in Cancer Genomics. A typical day involves coming up with simple yet compelling data analysis to answer critical biological questions. 
 
+The right hemisphere of my brain is into name: pottery, painting and DIY crafts. 

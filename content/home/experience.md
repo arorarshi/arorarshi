@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 65 # Order that this section will appear.
+weight = 50 # Order that this section will appear.
 
 title = "Journey so far"
 subtitle = ""
@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company = "Memorial Sloan Kettering Cancer Center"
   company_url = ""
   location = "New York"
-  date_start = "2012-05-01"
+  date_start = "2018-01-31"
   date_end = ""
   description = """
   Responsibilities include:

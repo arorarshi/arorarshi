@@ -15,9 +15,14 @@
   weight = 2
 
 [[main]]
+  name = "Pottery"
+  url = "#gallery"
+  weight = 3
+  
+[[main]]
   name = "Contact"
   url = "#contact"
-  weight = 3
+  weight = 4
 
 
 # Link to a PDF of your resume/CV from the menu.
