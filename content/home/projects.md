@@ -27,11 +27,15 @@ subtitle = ""
   
   [[content.filter_button]]
     name = "R packages"
-    tag = "r"
+    tag = "R packages"
   
   [[content.filter_button]]
-    name = "algorithms"
-    tag = "classification"
+    name = "Publications"
+    tag = "Publications"
+    
+    [[content.filter_button]]
+    name = "Algorithms"
+    tag = "Algorithms"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

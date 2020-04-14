@@ -1,32 +1,33 @@
+
 ---
-  # Documentation: https://sourcethemes.com/academic/docs/managing-content/
-  
-  title: "panelmap"
-summary: "Visualization tool for clustered groups"
-authors: []
-categories: [datavisualization, genomics]
-tags: [r, dataviz]
-date: 2019-10-09T08:38:28-07:00
+title: panelmap
+summary: Visualization tool for clustered groups
+tags:
+- R packages
+- Data Visualization
+
+
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/arorarshi/panelmap
+#external_link: https://github.com/arorarshi/panelmap
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "A panelmap visualization on mtcars dataset"
 focal_point: ""
 preview_only: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-#links:
-#  - name: GitHub
-#url: https://github.com/malcolmbarrett/precisely
-#icon_pack: fab
-#icon: github
 
+links:
+- icon: GitHub
+  icon_pack: fab
+  name: GitHub
+  url: https://github.com/arorarshi/panelmap
+  
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -40,4 +41,5 @@ url_video: ""
 slides: ""
 ---
   
-Visualizing discrete and continuous data for known groups
+Visualizing discrete and continuous data for known groups. 
+panelmap creates panels for summarizing binary data, categorical data (more than 2 categories) and continuous data for known groups. One can visualize missing data, summarize tables along with appropriate tests and do various customizations. 

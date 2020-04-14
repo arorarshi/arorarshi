@@ -128,11 +128,31 @@
   </url>
   
   <url>
+    <loc>/tags/algorithms/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/data-visualization/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/tcga-icluster/</loc>
+  </url>
+  
+  <url>
     <loc>/project/panelmap/</loc>
   </url>
   
   <url>
     <loc>/project/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/r-packages/</loc>
   </url>
   
   <url>

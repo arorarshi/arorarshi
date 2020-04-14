@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Research Biostatistican II"
+  title = "Research Biostatistician II"
   company = "Memorial Sloan Kettering Cancer Center"
   company_url = ""
   location = "New York"
@@ -59,24 +59,24 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Medical Scientist"
-  company = "University of Pitssburgh"
+  company = "University of Pittsburgh"
   company_url = ""
   location = "Pittsburgh"
-  date_start = "2012-04-01"
-  date_end = "2010-11-01"
+  date_start = "2010-11-01"
+  date_end = "2012-04-01"
   description =  """Development of miRNA-seq Illumina pipeline in Perl, involving quality filtering of reads, trimming of adapters, and aligning to the Genome to obtain raw reads for analysis and for the analysis of potential miRNA targetable genes. Understanding miRNA targets and the effect of co-operativity of miRNA via thermodynamics on CLIPSeq data."""
 
   
 [[experience]]
   title = "Health Sciences Fellow"
-  company = "University of Pitssburgh"
+  company = "University of Pittsburgh"
   company_url = ""
   location = "Pittsburgh"
-  date_start = "2010-10-01"
-  date_end = "2009-10-01"
+  date_start = "2009-10-01"
+  date_end = "2010-10-01"
   description = """ 
   Responsibilities include:
-  *  BioNetGen (BNG) to Stochastic Simulation Compiler (SSC) translator written in Perl. http://www.bionetgen.org/index.php/BioNetGen_to_SSC_translator
+  *  BioNetGen (BNG) to Stochastic Simulation Compiler (SSC) translator written in Perl. 
   *  Understanding and modeling of Toll Like Receptor 4 (TLR4) pathway.
   *  Bug resolving, updating the BioNetGen wiki.
   """

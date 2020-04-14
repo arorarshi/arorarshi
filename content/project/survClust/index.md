@@ -1,31 +1,29 @@
 ---
-  # Documentation: https://sourcethemes.com/academic/docs/managing-content/
-  
-  title: "survClust"
-summary: "An outcome weighted supervised clustering algorithm"
-authors: []
-categories: [clustering, multi-omics]
-tags: [r, classification]
-date: 2019-10-09T08:38:28-07:00
+title: survClust
+summary: An outcome weighted supervised clustering algorithm
+tags:
+- R packages
+- Algorithms
+
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/arorarshi/survClust
+#external_link: "https://github.com/arorarshi/survClust
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "survClust performes supervised clustering by integrating clinical information (Overall Survival, Progression Free Survival etc) along with sequencing data (DNA expression, Mutation, Copy Number, DNA Metthylation, flow cytometry etc."
 focal_point: ""
 preview_only: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-#links:
-#  - name: GitHub
-#url: https://github.com/malcolmbarrett/precisely
-#icon_pack: fab
-#icon: github
+links:
+- icon: GitHub
+  icon_pack: fab
+  name: GitHub
+  url: https://github.com/arorarshi/survClust
 
 url_code: ""
 url_pdf: ""

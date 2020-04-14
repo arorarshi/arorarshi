@@ -13,11 +13,36 @@
     </image>
     
     <item>
+      <title>iCluster and TCGA</title>
+      <link>/project/tcga-icluster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/tcga-icluster/</guid>
+      <description>&lt;p&gt;I performed iCluster on various disease cohorts sequenced by the TCGA.&lt;/p&gt;
+&lt;p&gt;Relevant publications:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Akbani, R., Akdemir, K.C., Aksoy, B.A., Albert, M., Ally, A., Amin, S.B., Arachchi, H., &lt;strong&gt;Arora, A.&lt;/strong&gt;, Auman, J.T., Ayala, B. and Baboud, J., 2015. Genomic classification of cutaneous melanoma. Cell, 161(7), pp.1681-1696.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Abeshouse, A., Ahn, J., Akbani, R., Ally, A., Amin, S., Andry, C.D., Annala, M., Aprikian, A., Armenia, J., &lt;strong&gt;Arora, A.&lt;/strong&gt; and Auman, J.T., 2015. The molecular taxonomy of primary prostate cancer. Cell, 163(4), pp.1011-1025.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wheeler, D.A., Roberts, L.R. and Cancer Genome Atlas Research Network, 2017. Comprehensive and integrative genomic characterization of hepatocellular carcinoma. Cell, 169(7), p.1327.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Farshidfar, F., Zheng, S., Gingras, M.C., Newton, Y., Shih, J., Robertson, A.G., Hinoue, T., Hoadley, K.A., Gibb, E.A., Roszik, J. and Covington, K.R., 2017. Integrative genomic analysis of cholangiocarcinoma identifies distinct IDH-mutant molecular profiles. Cell reports, 18(11), pp.2780-2794.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>panelmap</title>
       <link>/project/panelmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/project/panelmap/</guid>
-      <description>&lt;p&gt;Visualizing discrete and continuous data for known groups&lt;/p&gt;
+      <description>&lt;p&gt;Visualizing discrete and continuous data for known groups.
+panelmap creates panels for summarizing binary data, categorical data (more than 2 categories) and continuous data for known groups. One can visualize missing data, summarize tables along with appropriate tests and do various customizations.&lt;/p&gt;
 </description>
     </item>
     
