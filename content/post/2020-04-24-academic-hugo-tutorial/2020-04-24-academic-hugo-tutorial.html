@@ -1,0 +1,112 @@
+---
+title: "Academic Hugo Theme via Blogdown: Where to start?"
+author: "Arshi Arora"
+date: '2020-04-24'
+tags: ["tutorial"]
+categories: ["R studio"]
+---
+
+
+
+<p>Setting up a personal website is fun and a great way to reach visibility. Whether its your work, skills, or other hobbies, they all can reach the light of day in one platform!</p>
+<p>I will go over building websites via <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> as <a href="https://themes.gohugo.io/academic/">Hugo’s Acadmeic</a> theme as a template. Though Yihui’s blogdown tutorial is the ultimate Holy Grail. I wanted to write a simple tutorial about getting started with a quick and easy website without getting overwhelmed :)</p>
+<div id="getting-started" class="section level1">
+<h1>0. Getting Started</h1>
+<p>By running the following commands in R:</p>
+<pre class="r"><code>#set up
+install.packages(&#39;blogdown&#39;) 
+library(&quot;blogdown&quot;)
+blogdown::install_hugo()
+#start creating a website by new_site()!
+blogdown::new_site(theme = &quot;gcushen/hugo-academic&quot;)
+#I have passed the academic theme above
+
+#view your website locally
+blogdown::build_site()</code></pre>
+<p>OK. This created a bunch of files in your directory, and created a static website, something like <a href="https://themes.gohugo.io/theme/academic/">this</a></p>
+<p>This is an exhaustive overview of how the Academic template looks like. We don’t need all of these functionalists, and we can retain only what we like.</p>
+<p>If you mess up something, original GitHub code is available <a href="https://github.com/gcushen/hugo-academic/tree/master/exampleSite">here</a> for your reference.</p>
+</div>
+<div id="whats-going-on" class="section level1">
+<h1>1. What’s going on?</h1>
+<p>A lot!</p>
+<p>First place I would recommend trying is getting familiar with <code>.md</code> files present here <code>your website folder &gt; content &gt; home</code></p>
+<div class="figure">
+<img src="fig1.png" alt="We are looking at this" id="id" class="class" style="width:50.0%" style="height:50.0%" />
+<p class="caption">We are looking at this</p>
+</div>
+<p>Each .md file here is a functionality/widget of the Academic theme. For example, you see skills section of the website in a particular icon format, experience section in a bullet-timeline format, and so on. They are all controlled by the files here, and are displayed by logical <code>active=true/false</code> as follows-</p>
+<pre class="r"><code># About widget.
+widget = &quot;about&quot;  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+#</code></pre>
+<p>If <code>active=FALSE</code> widget is suppressed and displayed if <code>TRUE</code>. Start by turning everything <code>FALSE</code> except -</p>
+<ul>
+<li><code>about.md</code></li>
+<li><code>skills.md</code></li>
+<li><code>experience.md</code></li>
+</ul>
+<p>Also, note the <code>weight</code> section in the <code>.md</code> script. This is the order in which widgets will get displayed on your website. For example, the bubbles image background at the very top has <code>weight=1</code> as seen in <code>slider.md</code>.</p>
+</div>
+<div id="getting-the-hang-of-it" class="section level1">
+<h1>2. Getting the hang of it?</h1>
+<p>After turning off all the widgets, except <code>about.md, skills.md</code> and <code>experience.md</code> (you don’t have to delete others, and might want to store them for later). You will have the bare bones of your website.</p>
+<p>Now start filling in some details. The <code>about.md</code> file points to <code>content -&gt; authors -&gt; admin -&gt; _index.md</code> file, from where it stores and displays all that information. Fill it up with your own deets!</p>
+<p>Same goes for <code>skills.md</code> and <code>eperience.md</code></p>
+</div>
+<div id="config.toml-and-config-folder" class="section level1">
+<h1>3. config.toml and config folder</h1>
+<p>I use <code>config.toml</code> for all my settings, and as the name says <code>config</code> details. Remaining stuff like menu details go to <code>config -&gt; _default -&gt; menus.toml</code>, and <code>params.toml</code> for all website settings like theme, color, and other settings. (You won’t need a lot to start with)</p>
+<div id="menus.toml" class="section level2">
+<h2>menus.toml</h2>
+<p>This is the easy part! This just contains the menu buttons you want to see at the top of your website. Though everything is published on your website in a long-ish format. Here, the menu buttons at the top will help your viewer to navigate to key sections. Use the widgets you want to appear here like follows:</p>
+<pre class="r"><code>[[main]]
+  name = &quot;Projects&quot;
+  url = &quot;#projects&quot;
+  weight = 30
+  
+[[main]]
+  name = &quot;Posts&quot;
+  url = &quot;#posts&quot;
+  weight = 40
+
+  # and so on</code></pre>
+<p>In my website <code>about</code> and <code>skills</code> are at weight <code>10</code> and <code>20</code>, and that’s why <code>projects</code> has weight <code>30</code>. Menu items follow the same order and weights as the widgets as well. You can change that! Weights here just determine the order of appearance in the <code>menu</code> section.</p>
+</div>
+<div id="config.toml" class="section level2">
+<h2>config.toml</h2>
+<p>Here, I have everything as default except-</p>
+<pre class="r"><code>baseurl = &quot;https://arorarshi.rbind.io/&quot;
+title = &quot;Arshi Arora&quot;
+copyright = 
+
+paginate = 10  # Number of items per page in paginated lists.
+enableEmoji = true
+
+sharing = true
+
+#fixing image in posts 
+#this just puts the image used in your rmarkdown posts to appropriate folder, so that it doesn&#39;t appear broken on website. confused? you can skip for now. 
+uglyurls = true
+#[permalinks]
+# post = &quot;/:year/:month/:day/:slug/&quot;
+
+[blackfriday] bit
+#this is only needed for .md files. Pandoc is better for .Rmd. Maybe remove later but for now I have it in. </code></pre>
+</div>
+<div id="params.toml" class="section level2">
+<h2>params.toml</h2>
+<p>For a basic setup, you don’t need to worry about this.</p>
+</div>
+</div>
+<div id="rinse-and-repeat" class="section level1">
+<h1>4. Rinse and Repeat</h1>
+<p>Keep adding interesting details about yourself and playing around with the widgets. I will add deployment and other intricate details in the next post!</p>
+</div>
+<div id="references" class="section level1">
+<h1>References</h1>
+<ol style="list-style-type: decimal">
+<li><a href="https://bookdown.org/yihui/blogdown/" class="uri">https://bookdown.org/yihui/blogdown/</a></li>
+</ol>
+</div>

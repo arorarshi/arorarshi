@@ -9,7 +9,7 @@ copyright = "&copy; 2020 Arshi Arora"
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-158218181-2"
 
 summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.
 paginate = 10  # Number of items per page in paginated lists.
@@ -20,6 +20,10 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 # Enable native social sharing buttons?
 sharing = true
 
+#fixing image in posts 
+uglyurls = true
+#[permalinks]
+# post = "/:year/:month/:day/:slug/"
 
 ############################
 ## Advanced options below ##
