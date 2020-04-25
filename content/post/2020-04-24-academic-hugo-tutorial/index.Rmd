@@ -43,7 +43,7 @@ A lot!
 First place I would recommend trying is 
 getting familiar with `.md` files present here `your website folder > content > home`
 
-![We are looking at this](fig1.png){#id .class width=65% height=65%}
+![We are looking at this](fig1.png){#id .class width=60% height=60%}
 
 Each .md file here is a functionality/widget of the Academic theme. For example, you see skills section of the website in a particular icon format, experience section in a bullet-timeline format, and so on. They are all controlled by the files here, and are displayed by logical `active=true/false` as follows- 
 

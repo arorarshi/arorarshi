@@ -44,7 +44,7 @@ blogdown::build_site()&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;A lot!&lt;/p&gt;
 &lt;p&gt;First place I would recommend trying is getting familiar with &lt;code&gt;.md&lt;/code&gt; files present here &lt;code&gt;your website folder &amp;gt; content &amp;gt; home&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;fig1.png&#34; alt=&#34;We are looking at this&#34; id=&#34;id&#34; class=&#34;class&#34; style=&#34;width:65.0%&#34; style=&#34;height:65.0%&#34; /&gt;
+&lt;img src=&#34;fig1.png&#34; alt=&#34;We are looking at this&#34; id=&#34;id&#34; class=&#34;class&#34; style=&#34;width:60.0%&#34; style=&#34;height:60.0%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;We are looking at this&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Each .md file here is a functionality/widget of the Academic theme. For example, you see skills section of the website in a particular icon format, experience section in a bullet-timeline format, and so on. They are all controlled by the files here, and are displayed by logical &lt;code&gt;active=true/false&lt;/code&gt; as follows-&lt;/p&gt;
