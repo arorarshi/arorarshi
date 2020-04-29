@@ -43,7 +43,7 @@
 
 
 &lt;p&gt;Setting up a personal website is fun and a great way to reach visibility. Whether its your work, skills, or other hobbies, they all can reach the light of day in one platform!&lt;/p&gt;
-&lt;p&gt;I will go over building websites via &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34;&gt;blogdown&lt;/a&gt; as &lt;a href=&#34;https://themes.gohugo.io/academic/&#34;&gt;Hugo’s Acadmeic&lt;/a&gt; theme as a template. Though Yihui’s blogdown tutorial is the ultimate Holy Grail. I wanted to write a simple tutorial about getting started with a quick and easy website without getting overwhelmed :)&lt;/p&gt;
+&lt;p&gt;I will go over building websites via &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34;&gt;blogdown&lt;/a&gt; with &lt;a href=&#34;https://themes.gohugo.io/academic/&#34;&gt;Hugo’s Acadmeic&lt;/a&gt; theme as a template. Though Yihui’s blogdown tutorial is the ultimate Holy Grail. I wanted to write a simple tutorial about getting started with a quick and easy website without getting overwhelmed :)&lt;/p&gt;
 &lt;div id=&#34;getting-started&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;0. Getting Started&lt;/h1&gt;
 &lt;p&gt;By running the following commands in R:&lt;/p&gt;
@@ -58,7 +58,7 @@ blogdown::new_site(theme = &amp;quot;gcushen/hugo-academic&amp;quot;)
 #view your website locally
 blogdown::build_site()&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;OK. This created a bunch of files in your directory, and created a static website, something like &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34;&gt;this&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is an exhaustive overview of how the Academic template looks like. We don’t need all of these functionalists, and we can retain only what we like.&lt;/p&gt;
+&lt;p&gt;This is an exhaustive overview of how the Academic template looks like. We don’t need all of these functionalities, and we can only retain what we like.&lt;/p&gt;
 &lt;p&gt;If you mess up something, original GitHub code is available &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34;&gt;here&lt;/a&gt; for your reference.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;whats-going-on&#34; class=&#34;section level1&#34;&gt;
@@ -69,7 +69,7 @@ blogdown::build_site()&lt;/code&gt;&lt;/pre&gt;
 &lt;img src=&#34;fig1.png&#34; alt=&#34;We are looking at this&#34; id=&#34;id&#34; class=&#34;class&#34; style=&#34;width:60.0%&#34; style=&#34;height:60.0%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;We are looking at this&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;Each .md file here is a functionality/widget of the Academic theme. For example, you see skills section of the website in a particular icon format, experience section in a bullet-timeline format, and so on. They are all controlled by the files here, and are displayed by logical &lt;code&gt;active=true/false&lt;/code&gt; as follows-&lt;/p&gt;
+&lt;p&gt;Each .md file here is a functionality/widget of the Academic theme. For example, if you see the skills section of the website has icons in rows, experience section is in a bullet-timeline format, and so on. They are all controlled by the files here, and are displayed by logical &lt;code&gt;active=true/false&lt;/code&gt; as follows-&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# About widget.
 widget = &amp;quot;about&amp;quot;  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -94,7 +94,7 @@ active = true  # Activate this widget? true/false
 &lt;p&gt;I use &lt;code&gt;config.toml&lt;/code&gt; for all my settings, and as the name says &lt;code&gt;config&lt;/code&gt; details. Remaining stuff like menu details go to &lt;code&gt;config -&amp;gt; _default -&amp;gt; menus.toml&lt;/code&gt;, and &lt;code&gt;params.toml&lt;/code&gt; for all website settings like theme, color, and other settings. (You won’t need a lot to start with)&lt;/p&gt;
 &lt;div id=&#34;menus.toml&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;menus.toml&lt;/h2&gt;
-&lt;p&gt;This is the easy part! This just contains the menu buttons you want to see at the top of your website. Though everything is published on your website in a long-ish format. Here, the menu buttons at the top will help your viewer to navigate to key sections. Use the widgets you want to appear here like follows:&lt;/p&gt;
+&lt;p&gt;This is the easy part! This just contains the menu buttons you want to see at the top of your website. Though everything is published on your website in a long-ish format. Here, the menu buttons at the top will help the viewer to navigate to key sections. Use the widgets you want to appear here like follows:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;[[main]]
   name = &amp;quot;Projects&amp;quot;
   url = &amp;quot;#projects&amp;quot;
@@ -106,7 +106,7 @@ active = true  # Activate this widget? true/false
   weight = 40
 
   # and so on&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In my website &lt;code&gt;about&lt;/code&gt; and &lt;code&gt;skills&lt;/code&gt; are at weight &lt;code&gt;10&lt;/code&gt; and &lt;code&gt;20&lt;/code&gt;, and that’s why &lt;code&gt;projects&lt;/code&gt; has weight &lt;code&gt;30&lt;/code&gt;. Menu items follow the same order and weights as the widgets as well. You can change that! Weights here just determine the order of appearance in the &lt;code&gt;menu&lt;/code&gt; section.&lt;/p&gt;
+&lt;p&gt;In my website &lt;code&gt;about&lt;/code&gt; and &lt;code&gt;skills&lt;/code&gt; are at weight &lt;code&gt;10&lt;/code&gt; and &lt;code&gt;20&lt;/code&gt;, and that’s why &lt;code&gt;projects&lt;/code&gt; has weight &lt;code&gt;30&lt;/code&gt;. Menu items follow the same order and weights as the widgets as well. You can change that! Weights just determine the order of appearance in the &lt;code&gt;menu&lt;/code&gt; section.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;config.toml&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;config.toml&lt;/h2&gt;

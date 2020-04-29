@@ -12,7 +12,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 Setting up a personal website is fun and a great way to reach visibility. Whether its your work, skills, or other hobbies, they all can reach the light of day in one platform! 
 
-I will go over building websites via [blogdown](https://bookdown.org/yihui/blogdown/) as [Hugo's Acadmeic](https://themes.gohugo.io/academic/) theme as a template. Though Yihui's blogdown tutorial is the ultimate Holy Grail. I wanted to write a simple tutorial about getting  started with a quick and easy website without getting overwhelmed :) 
+I will go over building websites via [blogdown](https://bookdown.org/yihui/blogdown/) with [Hugo's Acadmeic](https://themes.gohugo.io/academic/) theme as a template. Though Yihui's blogdown tutorial is the ultimate Holy Grail. I wanted to write a simple tutorial about getting  started with a quick and easy website without getting overwhelmed :) 
 
 # 0. Getting Started 
 
@@ -33,7 +33,7 @@ blogdown::build_site()
 
 OK. This created a bunch of files in your directory, and created a static website, something like [this](https://themes.gohugo.io/theme/academic/)
 
-This is an exhaustive overview of how the Academic template looks like. We don't need all of these functionalists, and we can retain only what we like. 
+This is an exhaustive overview of how the Academic template looks like. We don't need all of these functionalities, and we can only retain what we like. 
 
 If you mess up something, original GitHub code is available [here](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) for your reference. 
 
@@ -45,7 +45,7 @@ getting familiar with `.md` files present here `your website folder > content > 
 
 ![We are looking at this](fig1.png){#id .class width=60% height=60%}
 
-Each .md file here is a functionality/widget of the Academic theme. For example, you see skills section of the website in a particular icon format, experience section in a bullet-timeline format, and so on. They are all controlled by the files here, and are displayed by logical `active=true/false` as follows- 
+Each .md file here is a functionality/widget of the Academic theme. For example, if you see the skills section of the website has icons in rows, experience section is in a bullet-timeline format, and so on. They are all controlled by the files here, and are displayed by logical `active=true/false` as follows- 
 
 ```{r, echo=TRUE, eval=FALSE}
 # About widget.
@@ -78,7 +78,7 @@ I use `config.toml` for all my settings, and as the name says `config` details. 
 
 ## menus.toml 
 
-This is the easy part! This just contains the menu buttons you want to see at the top of your website. Though everything is published on your website in a long-ish format. Here, the menu buttons at the top will help your viewer to navigate to key sections. Use the widgets you want to appear here like follows:
+This is the easy part! This just contains the menu buttons you want to see at the top of your website. Though everything is published on your website in a long-ish format. Here, the menu buttons at the top will help the viewer to navigate to key sections. Use the widgets you want to appear here like follows:
 
 ```{r, echo=TRUE, eval=FALSE}
 [[main]]
@@ -94,7 +94,7 @@ This is the easy part! This just contains the menu buttons you want to see at th
   # and so on
 ```
 
-In my website `about` and `skills` are at weight `10` and `20`, and that's why `projects` has weight `30`. Menu items follow the same order and weights as the widgets as well. You can change that! Weights here just determine the order of appearance in the `menu` section. 
+In my website `about` and `skills` are at weight `10` and `20`, and that's why `projects` has weight `30`. Menu items follow the same order and weights as the widgets as well. You can change that! Weights just determine the order of appearance in the `menu` section. 
 
 ## config.toml
 

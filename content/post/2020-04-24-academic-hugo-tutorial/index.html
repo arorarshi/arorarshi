@@ -9,7 +9,7 @@ categories: ["R studio"]
 
 
 <p>Setting up a personal website is fun and a great way to reach visibility. Whether its your work, skills, or other hobbies, they all can reach the light of day in one platform!</p>
-<p>I will go over building websites via <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> as <a href="https://themes.gohugo.io/academic/">Hugo’s Acadmeic</a> theme as a template. Though Yihui’s blogdown tutorial is the ultimate Holy Grail. I wanted to write a simple tutorial about getting started with a quick and easy website without getting overwhelmed :)</p>
+<p>I will go over building websites via <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> with <a href="https://themes.gohugo.io/academic/">Hugo’s Acadmeic</a> theme as a template. Though Yihui’s blogdown tutorial is the ultimate Holy Grail. I wanted to write a simple tutorial about getting started with a quick and easy website without getting overwhelmed :)</p>
 <div id="getting-started" class="section level1">
 <h1>0. Getting Started</h1>
 <p>By running the following commands in R:</p>
@@ -24,7 +24,7 @@ blogdown::new_site(theme = &quot;gcushen/hugo-academic&quot;)
 #view your website locally
 blogdown::build_site()</code></pre>
 <p>OK. This created a bunch of files in your directory, and created a static website, something like <a href="https://themes.gohugo.io/theme/academic/">this</a></p>
-<p>This is an exhaustive overview of how the Academic template looks like. We don’t need all of these functionalists, and we can retain only what we like.</p>
+<p>This is an exhaustive overview of how the Academic template looks like. We don’t need all of these functionalities, and we can only retain what we like.</p>
 <p>If you mess up something, original GitHub code is available <a href="https://github.com/gcushen/hugo-academic/tree/master/exampleSite">here</a> for your reference.</p>
 </div>
 <div id="whats-going-on" class="section level1">
@@ -35,7 +35,7 @@ blogdown::build_site()</code></pre>
 <img src="fig1.png" alt="We are looking at this" id="id" class="class" style="width:60.0%" style="height:60.0%" />
 <p class="caption">We are looking at this</p>
 </div>
-<p>Each .md file here is a functionality/widget of the Academic theme. For example, you see skills section of the website in a particular icon format, experience section in a bullet-timeline format, and so on. They are all controlled by the files here, and are displayed by logical <code>active=true/false</code> as follows-</p>
+<p>Each .md file here is a functionality/widget of the Academic theme. For example, if you see the skills section of the website has icons in rows, experience section is in a bullet-timeline format, and so on. They are all controlled by the files here, and are displayed by logical <code>active=true/false</code> as follows-</p>
 <pre class="r"><code># About widget.
 widget = &quot;about&quot;  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -60,7 +60,7 @@ active = true  # Activate this widget? true/false
 <p>I use <code>config.toml</code> for all my settings, and as the name says <code>config</code> details. Remaining stuff like menu details go to <code>config -&gt; _default -&gt; menus.toml</code>, and <code>params.toml</code> for all website settings like theme, color, and other settings. (You won’t need a lot to start with)</p>
 <div id="menus.toml" class="section level2">
 <h2>menus.toml</h2>
-<p>This is the easy part! This just contains the menu buttons you want to see at the top of your website. Though everything is published on your website in a long-ish format. Here, the menu buttons at the top will help your viewer to navigate to key sections. Use the widgets you want to appear here like follows:</p>
+<p>This is the easy part! This just contains the menu buttons you want to see at the top of your website. Though everything is published on your website in a long-ish format. Here, the menu buttons at the top will help the viewer to navigate to key sections. Use the widgets you want to appear here like follows:</p>
 <pre class="r"><code>[[main]]
   name = &quot;Projects&quot;
   url = &quot;#projects&quot;
@@ -72,7 +72,7 @@ active = true  # Activate this widget? true/false
   weight = 40
 
   # and so on</code></pre>
-<p>In my website <code>about</code> and <code>skills</code> are at weight <code>10</code> and <code>20</code>, and that’s why <code>projects</code> has weight <code>30</code>. Menu items follow the same order and weights as the widgets as well. You can change that! Weights here just determine the order of appearance in the <code>menu</code> section.</p>
+<p>In my website <code>about</code> and <code>skills</code> are at weight <code>10</code> and <code>20</code>, and that’s why <code>projects</code> has weight <code>30</code>. Menu items follow the same order and weights as the widgets as well. You can change that! Weights just determine the order of appearance in the <code>menu</code> section.</p>
 </div>
 <div id="config.toml" class="section level2">
 <h2>config.toml</h2>
