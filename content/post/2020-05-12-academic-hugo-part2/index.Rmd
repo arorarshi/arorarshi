@@ -1,0 +1,109 @@
+---
+title: "Academic Hugo Theme via Blogdown: Few more details and deployment (part 2)"
+author: "Arshi Arora"
+date: '2020-05-12'
+tags: ["tutorial"]
+categories: ["R studio"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+This is in continuation to a post I wrote - [Academic Hugo Theme via Blogdown: Where to start?](https://arorarshi.rbind.io/post/2020-04-24-academic-hugo-tutorial.html) 
+
+After setting up a basic website with `About`, `Skills` and `Experience` pages. You are now ready to deploy it and implement some cool customization! 
+
+# Deployment 
+
+I am deploying my site, the one you are reading this post on :), on __Netlify__ and then using a free subdomain with [`rbind.io`](https://github.com/rbind/support_). 
+
+## What's the difference?  
+
+Generally you need to buy a domain to host web pages, but with [Netlify](https://www.netlify.com/) you can use their web hosting service, with their domain and be live on the internet! It is free, however you can choose your own subdomain. 
+
+Setting up on __Netlify__ is super easy - 
+
+* log in to Netlify via GitHub and select the repository where you have all the website files
+    + Netlify deployment works on both private and public repositories
+
+* Set up the `HUGO_VERSION` accordingly. Check the version you are using in Rstudio via `blogdown::hugo_version()` command.
+
+* Once you deploy, Netlify will assign a random subdomain ending in `netlify.app` or `netlify.com`, for instance I got `infallible-poitras-1234-netlify.app`
+
+* The __IMPORTANT__ bit, after you have deployed your website on Netlify, change the `baseurl` parameter in `config.toml` 
+
+* You can change the subdomain and keep the `netlify.app`. Or you can apply for a `rbind.io` domain name.
+    + Just open an issue on their [GitHub repository](https://github.com/rbind/support_), and fill their template form. They are quick and will get back to you soon! 
+
+Now, everytime you commit to GitHub, Netlify will trigger a deploy. However, you can change this automatic trigger. __ALSO__, remember to run `blogdown::build_site()` before each commit, as this updates the `public` folder, which is used by Netlify to publish. 
+
+![Psst.. what do you mean by domain and subdomain](/img/post2_fig1.png){#id .class width=60% height=60%}
+
+## Redirects
+
+To redirect all HTTP traffic to HTTPs, use a redirects file. I placed a file called `_redirects` here - 
+
+```{r, eval=FALSE}
+static
+  |=== _redirects 
+```
+
+It contains this - 
+
+> http://arorarshi.rbind.io/*     https://arorarshi.rbind.io/:splat  301!
+
+Also explained [here](https://yihui.org/en/2017/11/301-redirect/)
+
+Now moving on to the cool stuff with customization!😎
+
+# Customizations
+
+## Favicon
+A `favicon` is a website icon or a tab icon on the left hand side in a tab. For example mine is a sun :). To get one for yourself, just select `favicon` image of your choice and place it here - 
+
+```{r, eval=FALSE}
+assets
+  |=== images 
+    |=== filename.png
+```
+
+
+## Color and Fonts
+Academic template is really good and it already comes with great inbuilt [themes](https://sourcethemes.com/academic/themes/) like - _Apogee, Minimal, Forest, Rose_ etc. Themes can be specified here  - 
+
+```{r, eval=FALSE}
+config
+  |=== params.toml 
+```
+
+with the variable `theme`
+
+If you want to create your own color and font template, use any of the the existing themes and open the file here - 
+
+```{r, eval=FALSE}
+themes
+  |=== hugo-academic 
+    |=== data
+      |=== themes 
+```
+
+Each theme has its own `.toml` file. 
+
+The colors are specified as `HTML` codes for `Primary`, `Menu` sections and so on. I used [this](https://htmlcolorcodes.com/color-picker/) to pick colors! 
+
+Towards the end of the `.toml` file, there will be a `font` parameter. 
+Font `.toml` files are present here -
+
+```{r, eval=FALSE}
+themes
+  |=== hugo-academic 
+    |=== data
+      |=== fonts 
+```
+I used Google fonts and you can specify them as they appear in their web address. Check out other `.toml` files to get a hang of it! 
+
+
+# References
+1.https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/
+2. https://getemoji.com/

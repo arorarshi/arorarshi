@@ -1,0 +1,85 @@
+---
+title: "Academic Hugo Theme via Blogdown: Few more details and deployment (part 2)"
+author: "Arshi Arora"
+date: '2020-05-12'
+tags: ["tutorial"]
+categories: ["R studio"]
+---
+
+
+
+<p>This is in continuation to a post I wrote - <a href="https://arorarshi.rbind.io/post/2020-04-24-academic-hugo-tutorial.html">Academic Hugo Theme via Blogdown: Where to start?</a></p>
+<p>After setting up a basic website with <code>About</code>, <code>Skills</code> and <code>Experience</code> pages. You are now ready to deploy it and implement some cool customization!</p>
+<div id="deployment" class="section level1">
+<h1>Deployment</h1>
+<p>I am deploying my site, the one you are reading this post on :), on <strong>Netlify</strong> and then using a free subdomain with <a href="https://github.com/rbind/support_"><code>rbind.io</code></a>.</p>
+<div id="whats-the-difference" class="section level2">
+<h2>What’s the difference?</h2>
+<p>Generally you need to buy a domain to host web pages, but with <a href="https://www.netlify.com/">Netlify</a> you can use their web hosting service, with their domain and be live on the internet! It is free, however you can choose your own subdomain.</p>
+<p>Setting up on <strong>Netlify</strong> is super easy -</p>
+<ul>
+<li>log in to Netlify via GitHub and select the repository where you have all the website files
+<ul>
+<li>Netlify deployment works on both private and public repositories</li>
+</ul></li>
+<li><p>Set up the <code>HUGO_VERSION</code> accordingly. Check the version you are using in Rstudio via <code>blogdown::hugo_version()</code> command.</p></li>
+<li><p>Once you deploy, Netlify will assign a random subdomain ending in <code>netlify.app</code> or <code>netlify.com</code>, for instance I got <code>infallible-poitras-1234-netlify.app</code></p></li>
+<li><p>The <strong>IMPORTANT</strong> bit, after you have deployed your website on Netlify, change the <code>baseurl</code> parameter in <code>config.toml</code></p></li>
+<li>You can change the subdomain and keep the <code>netlify.app</code>. Or you can apply for a <code>rbind.io</code> domain name.
+<ul>
+<li>Just open an issue on their <a href="https://github.com/rbind/support_">GitHub repository</a>, and fill their template form. They are quick and will get back to you soon!</li>
+</ul></li>
+</ul>
+<p>Now, everytime you commit to GitHub, Netlify will trigger a deploy. However, you can change this automatic trigger. <strong>ALSO</strong>, remember to run <code>blogdown::build_site()</code> before each commit, as this updates the <code>public</code> folder, which is used by Netlify to publish.</p>
+<div class="figure">
+<img src="/img/post2_fig1.png" alt="Psst.. what do you mean by domain and subdomain" id="id" class="class" style="width:60.0%" style="height:60.0%" />
+<p class="caption">Psst.. what do you mean by domain and subdomain</p>
+</div>
+</div>
+<div id="redirects" class="section level2">
+<h2>Redirects</h2>
+<p>To redirect all HTTP traffic to HTTPs, use a redirects file. I placed a file called <code>_redirects</code> here -</p>
+<pre class="r"><code>static
+  |=== _redirects </code></pre>
+<p>It contains this -</p>
+<blockquote>
+<p><a href="http://arorarshi.rbind.io/*" class="uri">http://arorarshi.rbind.io/*</a> <a href="https://arorarshi.rbind.io/:splat" class="uri">https://arorarshi.rbind.io/:splat</a> 301!</p>
+</blockquote>
+<p>Also explained <a href="https://yihui.org/en/2017/11/301-redirect/">here</a></p>
+<p>Now moving on to the cool stuff with customization!😎</p>
+</div>
+</div>
+<div id="customizations" class="section level1">
+<h1>Customizations</h1>
+<div id="favicon" class="section level2">
+<h2>Favicon</h2>
+<p>A <code>favicon</code> is a website icon or a tab icon on the left hand side in a tab. For example mine is a sun :). To get one for yourself, just select <code>favicon</code> image of your choice and place it here -</p>
+<pre class="r"><code>assets
+  |=== images 
+    |=== filename.png</code></pre>
+</div>
+<div id="color-and-fonts" class="section level2">
+<h2>Color and Fonts</h2>
+<p>Academic template is really good and it already comes with great inbuilt <a href="https://sourcethemes.com/academic/themes/">themes</a> like - <em>Apogee, Minimal, Forest, Rose</em> etc. Themes can be specified here -</p>
+<pre class="r"><code>config
+  |=== params.toml </code></pre>
+<p>with the variable <code>theme</code></p>
+<p>If you want to create your own color and font template, use any of the the existing themes and open the file here -</p>
+<pre class="r"><code>themes
+  |=== hugo-academic 
+    |=== data
+      |=== themes </code></pre>
+<p>Each theme has its own <code>.toml</code> file.</p>
+<p>The colors are specified as <code>HTML</code> codes for <code>Primary</code>, <code>Menu</code> sections and so on. I used <a href="https://htmlcolorcodes.com/color-picker/">this</a> to pick colors!</p>
+<p>Towards the end of the <code>.toml</code> file, there will be a <code>font</code> parameter. Font <code>.toml</code> files are present here -</p>
+<pre class="r"><code>themes
+  |=== hugo-academic 
+    |=== data
+      |=== fonts </code></pre>
+<p>I used Google fonts and you can specify them as they appear in their web address. Check out other <code>.toml</code> files to get a hang of it!</p>
+</div>
+</div>
+<div id="references" class="section level1">
+<h1>References</h1>
+<p>1.<a href="https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/" class="uri">https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/</a> 2. <a href="https://getemoji.com/" class="uri">https://getemoji.com/</a></p>
+</div>

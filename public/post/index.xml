@@ -5,12 +5,98 @@
     <link>/post.html</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020 Arshi Arora</copyright><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2020 Arshi Arora</copyright><lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>/post.html</link>
     </image>
+    
+    <item>
+      <title>Academic Hugo Theme via Blogdown: Few more details and deployment (part 2)</title>
+      <link>/post/2020-05-12-academic-hugo-part2.html</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-05-12-academic-hugo-part2.html</guid>
+      <description>
+
+
+&lt;p&gt;This is in continuation to a post I wrote - &lt;a href=&#34;https://arorarshi.rbind.io/post/2020-04-24-academic-hugo-tutorial.html&#34;&gt;Academic Hugo Theme via Blogdown: Where to start?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After setting up a basic website with &lt;code&gt;About&lt;/code&gt;, &lt;code&gt;Skills&lt;/code&gt; and &lt;code&gt;Experience&lt;/code&gt; pages. You are now ready to deploy it and implement some cool customization!&lt;/p&gt;
+&lt;div id=&#34;deployment&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Deployment&lt;/h1&gt;
+&lt;p&gt;I am deploying my site, the one you are reading this post on :), on &lt;strong&gt;Netlify&lt;/strong&gt; and then using a free subdomain with &lt;a href=&#34;https://github.com/rbind/support_&#34;&gt;&lt;code&gt;rbind.io&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;whats-the-difference&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What’s the difference?&lt;/h2&gt;
+&lt;p&gt;Generally you need to buy a domain to host web pages, but with &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt; you can use their web hosting service, with their domain and be live on the internet! It is free, however you can choose your own subdomain.&lt;/p&gt;
+&lt;p&gt;Setting up on &lt;strong&gt;Netlify&lt;/strong&gt; is super easy -&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;log in to Netlify via GitHub and select the repository where you have all the website files
+&lt;ul&gt;
+&lt;li&gt;Netlify deployment works on both private and public repositories&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up the &lt;code&gt;HUGO_VERSION&lt;/code&gt; accordingly. Check the version you are using in Rstudio via &lt;code&gt;blogdown::hugo_version()&lt;/code&gt; command.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Once you deploy, Netlify will assign a random subdomain ending in &lt;code&gt;netlify.app&lt;/code&gt; or &lt;code&gt;netlify.com&lt;/code&gt;, for instance I got &lt;code&gt;infallible-poitras-1234-netlify.app&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &lt;strong&gt;IMPORTANT&lt;/strong&gt; bit, after you have deployed your website on Netlify, change the &lt;code&gt;baseurl&lt;/code&gt; parameter in &lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;You can change the subdomain and keep the &lt;code&gt;netlify.app&lt;/code&gt;. Or you can apply for a &lt;code&gt;rbind.io&lt;/code&gt; domain name.
+&lt;ul&gt;
+&lt;li&gt;Just open an issue on their &lt;a href=&#34;https://github.com/rbind/support_&#34;&gt;GitHub repository&lt;/a&gt;, and fill their template form. They are quick and will get back to you soon!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, everytime you commit to GitHub, Netlify will trigger a deploy. However, you can change this automatic trigger. &lt;strong&gt;ALSO&lt;/strong&gt;, remember to run &lt;code&gt;blogdown::build_site()&lt;/code&gt; before each commit, as this updates the &lt;code&gt;public&lt;/code&gt; folder, which is used by Netlify to publish.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/post2_fig1.png&#34; alt=&#34;Psst.. what do you mean by domain and subdomain&#34; id=&#34;id&#34; class=&#34;class&#34; style=&#34;width:60.0%&#34; style=&#34;height:60.0%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Psst.. what do you mean by domain and subdomain&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;redirects&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Redirects&lt;/h2&gt;
+&lt;p&gt;To redirect all HTTP traffic to HTTPs, use a redirects file. I placed a file called &lt;code&gt;_redirects&lt;/code&gt; here -&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;static
+  |=== _redirects &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It contains this -&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://arorarshi.rbind.io/*&#34; class=&#34;uri&#34;&gt;http://arorarshi.rbind.io/*&lt;/a&gt; &lt;a href=&#34;https://arorarshi.rbind.io/:splat&#34; class=&#34;uri&#34;&gt;https://arorarshi.rbind.io/:splat&lt;/a&gt; 301!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Also explained &lt;a href=&#34;https://yihui.org/en/2017/11/301-redirect/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now moving on to the cool stuff with customization!😎&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;customizations&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Customizations&lt;/h1&gt;
+&lt;div id=&#34;favicon&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Favicon&lt;/h2&gt;
+&lt;p&gt;A &lt;code&gt;favicon&lt;/code&gt; is a website icon or a tab icon on the left hand side in a tab. For example mine is a sun :). To get one for yourself, just select &lt;code&gt;favicon&lt;/code&gt; image of your choice and place it here -&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;assets
+  |=== images 
+    |=== filename.png&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;color-and-fonts&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Color and Fonts&lt;/h2&gt;
+&lt;p&gt;Academic template is really good and it already comes with great inbuilt &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34;&gt;themes&lt;/a&gt; like - &lt;em&gt;Apogee, Minimal, Forest, Rose&lt;/em&gt; etc. Themes can be specified here -&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;config
+  |=== params.toml &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;with the variable &lt;code&gt;theme&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If you want to create your own color and font template, use any of the the existing themes and open the file here -&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;themes
+  |=== hugo-academic 
+    |=== data
+      |=== themes &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Each theme has its own &lt;code&gt;.toml&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;The colors are specified as &lt;code&gt;HTML&lt;/code&gt; codes for &lt;code&gt;Primary&lt;/code&gt;, &lt;code&gt;Menu&lt;/code&gt; sections and so on. I used &lt;a href=&#34;https://htmlcolorcodes.com/color-picker/&#34;&gt;this&lt;/a&gt; to pick colors!&lt;/p&gt;
+&lt;p&gt;Towards the end of the &lt;code&gt;.toml&lt;/code&gt; file, there will be a &lt;code&gt;font&lt;/code&gt; parameter. Font &lt;code&gt;.toml&lt;/code&gt; files are present here -&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;themes
+  |=== hugo-academic 
+    |=== data
+      |=== fonts &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I used Google fonts and you can specify them as they appear in their web address. Check out other &lt;code&gt;.toml&lt;/code&gt; files to get a hang of it!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;p&gt;1.&lt;a href=&#34;https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/&#34; class=&#34;uri&#34;&gt;https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/&lt;/a&gt; 2. &lt;a href=&#34;https://getemoji.com/&#34; class=&#34;uri&#34;&gt;https://getemoji.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Academic Hugo Theme via Blogdown: Where to start?</title>
