@@ -90,6 +90,7 @@
     |=== data
       |=== fonts &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I used Google fonts and you can specify them as they appear in their web address. Check out other &lt;code&gt;.toml&lt;/code&gt; files to get a hang of it!&lt;/p&gt;
+&lt;p&gt;As always &lt;strong&gt;Rinse and Repeat&lt;/strong&gt; Or restart the R session and &lt;code&gt;blogdown::build_site()&lt;/code&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;references&#34; class=&#34;section level1&#34;&gt;

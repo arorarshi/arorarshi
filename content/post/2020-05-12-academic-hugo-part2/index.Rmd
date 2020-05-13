@@ -105,6 +105,7 @@ themes
 ```
 I used Google fonts and you can specify them as they appear in their web address. Check out other `.toml` files to get a hang of it! 
 
+As always __Rinse and Repeat__ Or restart the R session and `blogdown::build_site()`. 
 
 # References
 1.https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/
