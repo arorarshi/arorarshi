@@ -75,4 +75,4 @@ email: ""
 
  I am a statistician with strong programming skills in R, Perl and shell, and a formal training in Computational Biology. I work at Memorial Sloan Kettering Cancer Center as a Biostatistician and dabble in Cancer Genomics. A typical day involves coming up with simple yet compelling data analysis to answer critical biological questions. 
 
-The right hemisphere of my brain is into ceramics, painting and DIY crafts. 
+The right hemisphere of my brain is into ceramics, painting and DIY crafts. I also co-host a podcast on Computational Biology called [Computationally Yours](https://computationallyyours.netlify.app/)! 
