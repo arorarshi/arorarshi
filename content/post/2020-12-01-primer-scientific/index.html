@@ -1,0 +1,51 @@
+---
+title: "A brief primer on scientific and mathematical notations"
+author: "Arshi Arora"
+date: '2020-12-01'
+tags: ["notes"]
+categories: ["Educational"]
+---
+
+
+
+<p>As I finished writing the final draft of my first first author paper, <a href="https://www.biorxiv.org/content/10.1101/2020.05.11.084798v1">survClust</a>, there were a lot of other firsts! In my opinion writing the methods and a crisp conclusion and discussion were the difficult parts.</p>
+<p>Below, I share my notes that really came in handy while I was writing the methods section of my manuscript.</p>
+<div id="what-this-is" class="section level2">
+<h2>What this is?</h2>
+<p>Notes on how to describe a statistical methodology. Some basic rules and notations that you should keep in mind.</p>
+</div>
+<div id="scientific-notations" class="section level2">
+<h2>Scientific notations</h2>
+<ul>
+<li><p>Random variables are usually written in uppercase roman letters: <span class="math inline">\(X,Y\)</span>, etc.</p></li>
+<li><p>Probability density functions (pdfs) and probability mass functions are denoted by lowercase letters, e.g. <span class="math inline">\(f_{(x)}\)</span>, or <span class="math inline">\(f_{X}(x)\)</span>.</p></li>
+<li><p>Cumulative distribution functions (cdfs) are denoted by uppercase letters, e.g. <span class="math inline">\(F(x)\)</span>, or <span class="math inline">\(F_{X}(x)\)</span>.</p></li>
+</ul>
+<p>Let's summarize the above three points with an example -</p>
+<p>A random variable <span class="math inline">\(X\)</span> has density <span class="math inline">\(f_{X}\)</span> as follows -</p>
+<p><span class="math display">\[ Pr[a\leq X\leq b]=\int _{a}^{b}f_{X}(x)\,dx\]</span></p>
+<p>Hence, if <span class="math inline">\(F_{X}\)</span> is the cumulative distribution function of <span class="math inline">\(X\)</span> then:</p>
+<p><span class="math display">\[F_{X}(x)=\int _{-\infty }^{x}f_{X}(u)\,du,\]</span></p>
+<p>and</p>
+<p><span class="math display">\[f_{X}(x)={\frac {d}{dx}}F_{X}(x).\]</span></p>
+<p>Now, let's go over some quick statistical nitty-gritties:</p>
+<ul>
+<li><p>Greek letters <span class="math inline">\(\theta, \beta\)</span> are commonly used to denote unknown parameters.</p></li>
+<li><p>Placing a hat, or caret, over a true parameter denotes an estimator of it, e.g., <span class="math inline">\(\widehat {\theta }\)</span> is an estimator for <span class="math inline">\(\theta\)</span> .</p></li>
+<li><p>Building on the above point the <strong>sample</strong> mean, variance and correlation coefficient are denoted as <span class="math inline">\(\bar{x}, s^2, r\)</span> respectively. On the other hand <strong>population</strong> parameters are represented as follows - population mean <span class="math inline">\(\mu\)</span>, population variance <span class="math inline">\(\sigma^2\)</span>, and population correlation as <span class="math inline">\(\rho\)</span></p></li>
+</ul>
+<p>IMG_3239.jpg <strong>Finally most of the time you will need to know the following writing notions while drafting the methods section of your manuscript</strong> -</p>
+<ul>
+<li><p>Input or independent variables are denoted by <span class="math inline">\(X\)</span>, output or dependent variables are denoted by <span class="math inline">\(Y\)</span>, and qualitative outputs by <span class="math inline">\(G\)</span>.</p></li>
+<li><p>If <span class="math inline">\(X\)</span> is a vector, annotate its values by subscripts <span class="math inline">\(X_j\)</span></p></li>
+<li><p>Observed values are written in lowercase; hence the <span class="math inline">\(i^{th}\)</span> observed value of <span class="math inline">\(X\)</span> is written as <span class="math inline">\(x_i\)</span>, where <span class="math inline">\(x_i\)</span> is a scalar or vector.</p></li>
+<li><p>Matrices are represented by bold uppercase letters; for example a matrix <span class="math inline">\(\textbf{X}\)</span>, with dimensions <span class="math inline">\(N\)</span> x <span class="math inline">\(p\)</span> i.e a set of <span class="math inline">\(N\)</span> input <span class="math inline">\(p\)</span>-vectors. In general, vectors will not be bold, except when they have <span class="math inline">\(N\)</span> components; Note that all vectors are assumed to be column vectors.</p></li>
+</ul>
+<p>Let's break it down with an example -</p>
+<p>Given a vector of inputs <span class="math inline">\(\textbf{X}^T = (X_1,X_2,...,X_p)\)</span>, we predict the output <span class="math inline">\(\textbf{Y}\)</span> via a simple linear regression -</p>
+<p><span class="math display">\[\hat{\textbf{Y}} = \hat\beta_0 + \sum_{n=1}^{p} \textbf{X}_{j}\hat\beta_{j}\]</span> Or writing this in a vector form as an inner product - <span class="math inline">\(\hat{\textbf{Y}} = \textbf{X}^T\hat\beta\)</span> To solve this we need to estimate a value of {} such that it minimizes the Residual Sum of Squares or RSS as follows -</p>
+<p><span class="math display">\[RSS(\beta) =  \sum_{i=1}^{N} (y_i - x_{i}^T\beta)^2\]</span></p>
+<p>Or in matrix notation we can write it as,</p>
+<p><span class="math display">\[RSS(\beta) =  (\textbf{y} - \textbf{X}\beta)^T(\textbf{y} - \textbf{X}\beta)\]</span> where <span class="math inline">\(\textbf{X}\)</span> is an <span class="math inline">\(N × p\)</span> matrix with each row an input vector, and <span class="math inline">\(\textbf{y}\)</span> is an <span class="math inline">\(N\)</span>-vector of the outputs. See how <span class="math inline">\(\textbf{y}\)</span> is in bold in the above question.</p>
+<p>Or take one of your favorite papers, and try to go over its methods section to iron and figure out other key details!</p>
+</div>

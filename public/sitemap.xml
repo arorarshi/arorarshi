@@ -13,27 +13,42 @@
   </url>
   
   <url>
+    <loc>/post/2020-12-01-primer-scientific.html</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories.html</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/educational.html</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/notes.html</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post.html</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags.html</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2020-05-12-academic-hugo-part2.html</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories.html</loc>
-    <lastmod>2020-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post.html</loc>
-    <lastmod>2020-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/r-studio.html</loc>
-    <lastmod>2020-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags.html</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url>
   
