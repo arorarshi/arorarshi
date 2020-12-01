@@ -43,7 +43,7 @@ categories: ["Educational"]
 </ul>
 <p>Let's break it down with an example -</p>
 <p>Given a vector of inputs <span class="math inline">\(\textbf{X}^T = (X_1,X_2,...,X_p)\)</span>, we predict the output <span class="math inline">\(\textbf{Y}\)</span> via a simple linear regression -</p>
-<p><span class="math display">\[\hat{\textbf{Y}} = \hat\beta_0 + \sum_{n=1}^{p} \textbf{X}_{j}\hat\beta_{j}\]</span> Or writing this in a vector form as an inner product - <span class="math inline">\(\hat{\textbf{Y}} = \textbf{X}^T\hat\beta\)</span> To solve this we need to estimate a value of {} such that it minimizes the Residual Sum of Squares or RSS as follows -</p>
+<p><span class="math display">\[\hat{\textbf{Y}} = \hat\beta_0 + \sum_{n=1}^{p} \textbf{X}_{j}\hat\beta_{j}\]</span> Or writing this in a vector form as an inner product - <span class="math inline">\(\hat{\textbf{Y}} = \textbf{X}^T\hat\beta\)</span> To solve this we need to estimate a value of <span class="math inline">\(\beta\)</span> such that it minimizes the Residual Sum of Squares or RSS as follows -</p>
 <p><span class="math display">\[RSS(\beta) =  \sum_{i=1}^{N} (y_i - x_{i}^T\beta)^2\]</span></p>
 <p>Or in matrix notation we can write it as,</p>
 <p><span class="math display">\[RSS(\beta) =  (\textbf{y} - \textbf{X}\beta)^T(\textbf{y} - \textbf{X}\beta)\]</span> where <span class="math inline">\(\textbf{X}\)</span> is an <span class="math inline">\(N × p\)</span> matrix with each row an input vector, and <span class="math inline">\(\textbf{y}\)</span> is an <span class="math inline">\(N\)</span>-vector of the outputs. See how <span class="math inline">\(\textbf{y}\)</span> is in bold in the above question.</p>
