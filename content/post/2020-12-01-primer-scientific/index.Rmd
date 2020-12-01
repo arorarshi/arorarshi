@@ -49,7 +49,7 @@ Now, let's go over some quick statistical nitty-gritties:
 * Building on the above point the __sample__ mean, variance and correlation coefficient are denoted as $\bar{x}, s^2, r$ respectively. On the other hand __population__ parameters are represented as follows - population mean $\mu$, population variance $\sigma^2$, and population correlation as $\rho$
 
 
-IMG_3239.jpg
+
 __Finally most of the time you will need to know the following writing notions while drafting the methods section of your manuscript__ - 
 
 * Input or independent variables are denoted by $X$, output or dependent variables are denoted by $Y$, and qualitative outputs by $G$. 
