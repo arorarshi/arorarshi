@@ -3,16 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/talk/example.html</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk.html</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2020-12-01-primer-scientific.html</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -43,6 +33,21 @@
   </url>
   
   <url>
+    <loc>/talk/wsds2020.html</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk.html</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/birs2020.html</loc>
+    <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2020-05-12-academic-hugo-part2.html</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url>
@@ -63,6 +68,16 @@
   </url>
   
   <url>
+    <loc>/talk/cmu_lightning_2020.html</loc>
+    <lastmod>2020-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/ismco_2019.html</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/slides.html</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
@@ -70,6 +85,11 @@
   <url>
     <loc>/slides/example.html</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/tcga_symposium_2018.html</loc>
+    <lastmod>2018-09-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>

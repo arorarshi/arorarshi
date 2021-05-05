@@ -15,7 +15,7 @@ role: Research Biostatistician
 # Organizations/Affiliations
 organizations:
 - name: Memorial Sloan Kettering Cancer Center
-  url: "https://www.mskcc.org/departments/epidemiology-biostatistics"
+  url: "https://www.mskcc.org/profile/arshi-arora"
 
 # Short bio (displayed in user profile at end of posts)
 bio: New Yorker from Jaipur, India. Cancer Genomics, pottery and biking. 
