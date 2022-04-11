@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Arshi Arora</title>
-    <link>/publication_types.html</link>
-      <atom:link href="/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://arorarshi.rbind.io/publication_types.html</link>
+      <atom:link href="https://arorarshi.rbind.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2021 Arshi Arora</copyright><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Publication_types</title>
-      <link>/publication_types.html</link>
+      <link>https://arorarshi.rbind.io/publication_types.html</link>
     </image>
     
   </channel>

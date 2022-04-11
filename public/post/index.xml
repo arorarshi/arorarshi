@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Arshi Arora</title>
-    <link>/post.html</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://arorarshi.rbind.io/post.html</link>
+      <atom:link href="https://arorarshi.rbind.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2021 Arshi Arora</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
-      <link>/post.html</link>
+      <link>https://arorarshi.rbind.io/post.html</link>
     </image>
     
     <item>
       <title>A brief primer on scientific and mathematical notations</title>
-      <link>/post/2020-12-01-primer-scientific.html</link>
+      <link>https://arorarshi.rbind.io/post/2020-12-01-primer-scientific.html</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2020-12-01-primer-scientific.html</guid>
+      <guid>https://arorarshi.rbind.io/post/2020-12-01-primer-scientific.html</guid>
       <description>
 
 
@@ -66,9 +66,9 @@
     
     <item>
       <title>Academic Hugo Theme via Blogdown: Few more details and deployment (part 2)</title>
-      <link>/post/2020-05-12-academic-hugo-part2.html</link>
+      <link>https://arorarshi.rbind.io/post/2020-05-12-academic-hugo-part2.html</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2020-05-12-academic-hugo-part2.html</guid>
+      <guid>https://arorarshi.rbind.io/post/2020-05-12-academic-hugo-part2.html</guid>
       <description>
 
 
@@ -97,7 +97,7 @@
 &lt;p&gt;Now, everytime you commit to GitHub, Netlify will trigger a deploy. However, you can change this automatic trigger. &lt;strong&gt;ALSO&lt;/strong&gt;, remember to run &lt;code&gt;blogdown::build_site()&lt;/code&gt; before each commit, as this updates the &lt;code&gt;public&lt;/code&gt; folder, which is used by Netlify to publish.&lt;/p&gt;
 &lt;p&gt;For step by step instructions to Netlify, check this post &lt;a href=&#34;https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/post2_fig1.png&#34; alt=&#34;Psst.. what do you mean by domain and subdomain&#34; id=&#34;id&#34; class=&#34;class&#34; style=&#34;width:60.0%&#34; style=&#34;height:60.0%&#34; /&gt;
+&lt;img src=&#34;https://arorarshi.rbind.io/img/post2_fig1.png&#34; alt=&#34;Psst.. what do you mean by domain and subdomain&#34; id=&#34;id&#34; class=&#34;class&#34; style=&#34;width:60.0%&#34; style=&#34;height:60.0%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Psst.. what do you mean by domain and subdomain&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -157,9 +157,9 @@
     
     <item>
       <title>Academic Hugo Theme via Blogdown: Where to start?</title>
-      <link>/post/2020-04-24-academic-hugo-tutorial.html</link>
+      <link>https://arorarshi.rbind.io/post/2020-04-24-academic-hugo-tutorial.html</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2020-04-24-academic-hugo-tutorial.html</guid>
+      <guid>https://arorarshi.rbind.io/post/2020-04-24-academic-hugo-tutorial.html</guid>
       <description>
 
 
@@ -187,7 +187,7 @@ blogdown::build_site()&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;A lot!&lt;/p&gt;
 &lt;p&gt;First place I would recommend trying is getting familiar with &lt;code&gt;.md&lt;/code&gt; files present here &lt;code&gt;your website folder &amp;gt; content &amp;gt; home&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/post1_fig1.png&#34; alt=&#34;We are looking at this&#34; id=&#34;id&#34; class=&#34;class&#34; style=&#34;width:60.0%&#34; style=&#34;height:60.0%&#34; /&gt;
+&lt;img src=&#34;https://arorarshi.rbind.io/img/post1_fig1.png&#34; alt=&#34;We are looking at this&#34; id=&#34;id&#34; class=&#34;class&#34; style=&#34;width:60.0%&#34; style=&#34;height:60.0%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;We are looking at this&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Each .md file here is a functionality/widget of the Academic theme. For example, if you see the skills section of the website has icons in rows, experience section is in a bullet-timeline format, and so on. They are all controlled by the files here, and are displayed by logical &lt;code&gt;active=true/false&lt;/code&gt; as follows-&lt;/p&gt;

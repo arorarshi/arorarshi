@@ -3,190 +3,184 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/2020-12-01-primer-scientific.html</loc>
+    <loc>https://arorarshi.rbind.io/post/2020-12-01-primer-scientific.html</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories.html</loc>
+    <loc>https://arorarshi.rbind.io/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/educational.html</loc>
+    <loc>https://arorarshi.rbind.io/categories.html</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/notes.html</loc>
+    <loc>https://arorarshi.rbind.io/categories/educational.html</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post.html</loc>
+    <loc>https://arorarshi.rbind.io/tags/notes.html</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags.html</loc>
+    <loc>https://arorarshi.rbind.io/post.html</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/wsds2020.html</loc>
+    <loc>https://arorarshi.rbind.io/tags.html</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arorarshi.rbind.io/talk/wsds2020.html</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk.html</loc>
+    <loc>https://arorarshi.rbind.io/talk.html</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/birs2020.html</loc>
+    <loc>https://arorarshi.rbind.io/talk/birs2020.html</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2020-05-12-academic-hugo-part2.html</loc>
+    <loc>https://arorarshi.rbind.io/post/2020-05-12-academic-hugo-part2.html</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/r-studio.html</loc>
+    <loc>https://arorarshi.rbind.io/categories/r-studio.html</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/tutorial.html</loc>
+    <loc>https://arorarshi.rbind.io/tags/tutorial.html</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2020-04-24-academic-hugo-tutorial.html</loc>
+    <loc>https://arorarshi.rbind.io/post/2020-04-24-academic-hugo-tutorial.html</loc>
     <lastmod>2020-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/cmu_lightning_2020.html</loc>
+    <loc>https://arorarshi.rbind.io/talk/cmu_lightning_2020.html</loc>
     <lastmod>2020-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/ismco_2019.html</loc>
+    <loc>https://arorarshi.rbind.io/talk/ismco_2019.html</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides.html</loc>
+    <loc>https://arorarshi.rbind.io/slides.html</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/example.html</loc>
+    <loc>https://arorarshi.rbind.io/slides/example.html</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/tcga_symposium_2018.html</loc>
+    <loc>https://arorarshi.rbind.io/talk/tcga_symposium_2018.html</loc>
     <lastmod>2018-09-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/privacy.html</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/terms.html</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/admin.html</loc>
+    <loc>https://arorarshi.rbind.io/authors/admin.html</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/2.html</loc>
+    <loc>https://arorarshi.rbind.io/publication_types/2.html</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/journal-article.html</loc>
+    <loc>https://arorarshi.rbind.io/publication/journal-article.html</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors.html</loc>
+    <loc>https://arorarshi.rbind.io/authors.html</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types.html</loc>
+    <loc>https://arorarshi.rbind.io/publication_types.html</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication.html</loc>
+    <loc>https://arorarshi.rbind.io/publication.html</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/robert-ford.html</loc>
+    <loc>https://arorarshi.rbind.io/authors/robert-ford.html</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/source-themes.html</loc>
+    <loc>https://arorarshi.rbind.io/tags/source-themes.html</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/1.html</loc>
+    <loc>https://arorarshi.rbind.io/publication_types/1.html</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/conference-paper.html</loc>
+    <loc>https://arorarshi.rbind.io/publication/conference-paper.html</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/algorithms.html</loc>
+    <loc>https://arorarshi.rbind.io/tags/algorithms.html</loc>
   </url>
   
   <url>
-    <loc>/tags/data-visualization.html</loc>
+    <loc>https://arorarshi.rbind.io/tags/data-visualization.html</loc>
   </url>
   
   <url>
-    <loc>/project/tcga-icluster.html</loc>
+    <loc>https://arorarshi.rbind.io/project/gnomer.html</loc>
   </url>
   
   <url>
-    <loc>/project/panelmap.html</loc>
+    <loc>https://arorarshi.rbind.io/project/tcga-icluster.html</loc>
   </url>
   
   <url>
-    <loc>/project.html</loc>
+    <loc>https://arorarshi.rbind.io/project/panelmap.html</loc>
   </url>
   
   <url>
-    <loc>/tags/publications.html</loc>
+    <loc>https://arorarshi.rbind.io/project.html</loc>
   </url>
   
   <url>
-    <loc>/tags/r-packages.html</loc>
+    <loc>https://arorarshi.rbind.io/tags/publications.html</loc>
   </url>
   
   <url>
-    <loc>/project/survclust.html</loc>
+    <loc>https://arorarshi.rbind.io/tags/r-packages.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://arorarshi.rbind.io/project/survclust.html</loc>
   </url>
   
 </urlset>

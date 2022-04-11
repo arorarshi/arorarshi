@@ -1,32 +1,32 @@
 
 ---
-title: survClust
-summary: An outcome weighted supervised clustering algorithm
+title: gnomeR
+summary: Package to wrangle and visualize genomic data in R
 tags:
 - R packages
-- Algorithms
-- Publications
+
 
 
 # Optional external URL for project (replaces project detail page).
-#external_link: "https://github.com/arorarshi/survClust
+#external_link: https://github.com/MSKCC-Epi-Bio/gnomeR
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "survClust performes supervised clustering by integrating clinical information (Overall Survival, Progression Free Survival etc) along with sequencing data (DNA expression, Mutation, Copy Number, DNA Metthylation, flow cytometry etc."
+  caption: "gnomeR"
 focal_point: ""
 preview_only: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
+
 links:
 - icon: GitHub
   icon_pack: fab
   name: GitHub
-  url: https://github.com/arorarshi/survClust
-
+  url: https://github.com/MSKCC-Epi-Bio/gnomeR
+  
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -40,6 +40,4 @@ url_video: ""
 slides: ""
 ---
   
-An outcome weighted supervised clustering algorithm, designed to classify patients according to their molecular as well as time-event or end point of interest data.
-
-More details can be founf [here](https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-020-00804-8)
+Package to wrangle and visualize genomic data in R. In collaboration with Axel Martin and Karissa Whiting
