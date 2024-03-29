@@ -5,12 +5,22 @@
     <link>https://arorarshi.rbind.io/</link>
       <atom:link href="https://arorarshi.rbind.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Arshi Arora</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2021 Arshi Arora</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><copyright>© 2021 Arshi Arora</copyright><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Arshi Arora</title>
       <link>https://arorarshi.rbind.io/</link>
     </image>
+    
+    <item>
+      <title>AMSTAT feature, 2021</title>
+      <link>https://arorarshi.rbind.io/talk/amstat2021.html</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://arorarshi.rbind.io/talk/amstat2021.html</guid>
+      <description>&lt;p&gt;Pastimes of Statisticians: What Does Arshi Arora Like to Do When She Is Not Being a Statistician?
+P is for p-value and potter!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A brief primer on scientific and mathematical notations</title>
